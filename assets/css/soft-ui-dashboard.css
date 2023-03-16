@@ -2912,9 +2912,9 @@ textarea.form-control-lg {
 }
 
 .form-select:focus {
-  border-color: #e293d3;
+  border-color: #166534;
   outline: 0;
-  box-shadow: 0 0 0 2px #e9aede;
+  box-shadow: 0 0 0 2px #16a34a;
 }
 
 .form-select[multiple],
@@ -3689,19 +3689,19 @@ fieldset:disabled .btn {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #cb0c9f;
-  --bs-btn-border-color: #cb0c9f;
+  --bs-btn-bg: #16a34a;
+  --bs-btn-border-color: #16a34a;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #ad0a87;
-  --bs-btn-hover-border-color: #a20a7f;
+  --bs-btn-hover-bg: #15803d;
+  --bs-btn-hover-border-color: #15803d;
   --bs-btn-focus-shadow-rgb: 211, 48, 173;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #a20a7f;
-  --bs-btn-active-border-color: #980977;
+  --bs-btn-active-bg: #15803d;
+  --bs-btn-active-border-color: #15803d;
   --bs-btn-active-shadow: none;
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #cb0c9f;
-  --bs-btn-disabled-border-color: #cb0c9f;
+  --bs-btn-disabled-bg: #16a34a;
+  --bs-btn-disabled-border-color: #16a34a;
 }
 
 .btn-secondary {
@@ -20444,8 +20444,8 @@ fieldset:disabled .btn {
 
 .btn-primary:hover,
 .btn.bg-gradient-primary:hover {
-  background-color: #cb0c9f;
-  border-color: #cb0c9f;
+  background-color: #16a34a;
+  border-color: #16a34a;
 }
 
 .btn-primary .btn.bg-outline-primary,
@@ -21721,6 +21721,10 @@ label,
 
 .bg-gradient-primary {
   background-image: linear-gradient(310deg, #14532d 0%, #15803d 100%);
+}
+
+.bg-gradient-portada {
+  background-image: linear-gradient(310deg, #000 0%, #000 100%);
 }
 
 .bg-gradient-secondary {
@@ -26675,6 +26679,353 @@ pre[class*="language-"] {
   .ps {
     overflow: auto !important;
   }
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+/*Diseño de alta Dependencias*/
+
+.form-controlDep {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d2d6da;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.form-controlDep:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #a855f7;
+  outline: 0;
+  box-shadow: 0 0 0 2px #6b21a8;
+}
+
+.form-controlDep2 {
+  display: block;
+  width: 87%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d2d6da;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  position: relative;
+  left: 13%;
+  margin-top: -8.5%;
+}
+
+.form-controlDep2:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #166534;
+  outline: 0;
+  box-shadow: 0 0 0 2px #16a34a;
+}
+
+.form-selectDep {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #d2d6da;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  appearance: none;
+}
+
+.form-selectDep {
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.form-selectDep:focus {
+  border-color: #a855f7;
+  outline: 0;
+  box-shadow: 0 0 0 2px #6b21a8;
+}
+
+.form-selectDep2 {
+  display: block;
+  width: 12%;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #d2d6da;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  appearance: none;
+}
+
+.form-selectDep2 {
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.form-selectDep2:focus {
+  /*border-color: #a855f7;*/
+  border-color: #166534;
+  outline: 0;
+  box-shadow: 0 0 0 2px #16a34a;
+  /*box-shadow: 0 0 0 2px #6b21a8;*/
+}
+
+#btnDep{
+  background-color: #a855f7;
+}
+
+.bg-gradient-primary2 {
+  /*background-image: linear-gradient(310deg, #16a34a 0%, #166534 100%);*/
+  background-image: linear-gradient(310deg, #6b21a8 0%, #a855f7 100%);
+}
+
+/*Diseño de alta Usuarios*/
+
+.form-selectUsu {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #d2d6da;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  appearance: none;
+}
+
+.form-selectUsu {
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.form-selectUsu:focus {
+  border-color: #fb923c;
+  outline: 0;
+  box-shadow: 0 0 0 2px #f97316;
+}
+
+#btnUsu{
+  background-color: #fb923c;
+}
+
+.bg-gradient-primary3 {
+  background-image: linear-gradient(310deg, #f97316 0%, #fb923c 100%);
+}
+
+.form-controlUsu {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d2d6da;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.form-controlUsu:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fb923c;
+  outline: 0;
+  box-shadow: 0 0 0 2px #f97316;
+}
+
+/*Diseño de alta Tutores*/
+
+.form-selectTut {
+  display: block;
+  width: 11.5%;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #d2d6da;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  appearance: none;
+}
+
+.form-selectTut {
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.form-selectTut:focus {
+  border-color: #fbc400;
+  outline: 0;
+  box-shadow: 0 0 0 2px #fcd34d;
+}
+
+.form-controlTut {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d2d6da;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  position: relative;
+  left: -91%;
+  margin-top: .8%;
+}
+
+.form-controlTut:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fbc400;
+  outline: 0;
+  box-shadow: 0 0 0 2px #fcd34d;
+}
+
+#btnTut{
+  background-color: #fbc400;
+}
+
+.bg-gradient-primary4 {
+  background-image: linear-gradient(310deg, #fcd34d 0%, #fbc400 100%);
+}
+
+/*Diseño de alta Formatos*/
+
+.form-controlFor {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d2d6da;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.form-controlFor:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #0ea5e9;
+  outline: 0;
+  box-shadow: 0 0 0 2px #38bdf8;
+}
+
+#btnFor{
+  background-color: #0ea5e9;
+}
+
+.bg-gradient-primary5 {
+  background-image: linear-gradient(310deg, #38bdf8 0%, #0ea5e9 100%);
+}
+
+.form-selectFor {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #d2d6da;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  appearance: none;
+}
+
+.form-selectFor {
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.form-selectFor:focus {
+  border-color: #0ea5e9;
+  outline: 0;
+  box-shadow: 0 0 0 2px #38bdf8;
+}
+
+/*Hovers del menu*/
+
+#Alumnos:hover{
+  background-color: #bef264;
+}
+
+#Dependencias:hover{
+  background-color: #d8b4fe;
+}
+
+#Formatos:hover{
+  background-color: #7dd3fc;
+}
+
+#Tutores:hover{
+  background-color: #fde047;
+}
+
+#Usuarios:hover{
+  background-color: #fdba74;
 }
 
 /*# sourceMappingURL=dashboard-free.css.map */
